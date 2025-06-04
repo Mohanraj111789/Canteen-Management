@@ -1,0 +1,2 @@
+﻿# Development Progress
+Commit 1 : Initial project setup with create-react-app

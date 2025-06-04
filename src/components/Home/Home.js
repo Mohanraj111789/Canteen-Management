@@ -145,8 +145,7 @@ const Home = () => {
 
   const handleAdminClick = () => {
     if (isAdmin) {
-      setShowAdmin(true);
-      setShowOrderHistory(false);
+      navigate('/admin');
     }
   };
 

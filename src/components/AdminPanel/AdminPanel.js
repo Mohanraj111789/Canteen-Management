@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { database } from "../../firebase";
 import { ref, onValue } from "firebase/database";
+import { FaArrowLeft } from "react-icons/fa";
 import OrderHistory from "./OrderHistory.js";
 import ChartComponent from "./ChartComponent";
 import SummaryComponent from "./SummaryComponent";
@@ -11,7 +12,7 @@ import UpdateQuantityForm from "./UpdateQuantityForm";
 import { useNavigate } from 'react-router-dom';
 import useAdmin from '../../hooks/useAdmin';
 
-const AdminPanel = () => {
+const AdminPanel = ({ onBack }) => {
   const navigate = useNavigate();
   const isAdmin = useAdmin();
 
@@ -162,6 +163,29 @@ const AdminPanel = () => {
 
   const renderAdminContent = () => (
     <>
+      {/* Product Management Section - Top Priority */}
+      <Row className="mb-4">
+        <Col xs={12}>
+          <h3 className="mb-3">Product Management</h3>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12}>
+          <UpdateQuantityForm products={products} setProducts={setProducts} />
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12}>
+          <AddProductForm />
+        </Col>
+      </Row>
+      
+      {/* Analytics Section */}
+      <Row className="mt-5 mb-3">
+        <Col xs={12}>
+          <h3>Sales Analytics</h3>
+        </Col>
+      </Row>
       <Row>
         <Col xs={12} md={6} lg={4}>
           <ChartComponent
@@ -190,17 +214,16 @@ const AdminPanel = () => {
           <BestSellersComponent bestSellers={salesData.bestSellers} />
         </Col>
       </Row>
+      
+      {/* Order History Section */}
+      <Row className="mt-4">
+        <Col xs={12}>
+          <h3 className="mb-3">Order History</h3>
+        </Col>
+      </Row>
       <Row>
         <Col xs={12}>
           <OrderHistory isAdmin={true} />
-        </Col>
-      </Row>  
-      <Row>
-        <Col xs={12} md={6}>
-          <AddProductForm />
-        </Col>
-        <Col xs={12} md={6}>
-          <UpdateQuantityForm products={products} setProducts={setProducts} />
         </Col>
       </Row>
     </>
@@ -216,9 +239,22 @@ const AdminPanel = () => {
     </>
   );
 
+  const handleBackClick = () => {
+    if (onBack) {
+      onBack();
+    } else {
+      navigate('/');
+    }
+  };
+
   return (
     <Container fluid>
-      <h1 className="my-4 fw-bold">{isAdmin ? "Admin Panel" : "User Dashboard"}</h1>
+      <div className="d-flex align-items-center justify-content-between my-4">
+        <h1 className="fw-bold mb-0">{isAdmin ? "Admin Panel" : "User Dashboard"}</h1>
+        <Button variant="outline-secondary" onClick={handleBackClick}>
+          <FaArrowLeft className="me-2" /> Back to Home
+        </Button>
+      </div>
       {isAdmin ? renderAdminContent() : renderUserContent()}
     </Container>
   );

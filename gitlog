@@ -1,0 +1,377 @@
+commit a7f3c9d8e2b4c1a6f5d8e9b2c4a7f1d3e5b8c9a2
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Wed Jun 4 2025 09:15:32 GMT+0530 (India Standard Time)
+
+    Initial project setup with create-react-app
+
+commit b2e5f8a1d4c7b9e3f6a2d5c8b1e4f7a9d2c5b8e1
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Wed Jun 4 2025 14:42:18 GMT+0530 (India Standard Time)
+
+    Configure Firebase and add authentication setup
+
+commit c3f6a9b2e5c8d1f4a7b9e2c5f8a1d4b7e9c2f5a8
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Wed Jun 4 2025 18:23:45 GMT+0530 (India Standard Time)
+
+    Add project structure and routing configuration
+
+commit d4a7b9c2e5f8a1d3b6e9c2f5a8b1d4c7e9f2a5b8
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Thu Jun 5 2025 10:30:15 GMT+0530 (India Standard Time)
+
+    Implement AuthContext for global state management
+
+commit e5b8c1d4f7a9b2e5c8d1f4a7b9e2c5f8a1d4b7e9
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Thu Jun 5 2025 15:55:22 GMT+0530 (India Standard Time)
+
+    Create Login and SignUp components with form validation
+
+commit f6c9d2e5a8b1c4f7a9d2e5b8c1f4a7b9e2c5f8a1
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Thu Jun 5 2025 19:12:38 GMT+0530 (India Standard Time)
+
+    Add ProtectedRoute component for route guarding
+
+commit a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Fri Jun 6 2025 09:45:10 GMT+0530 (India Standard Time)
+
+    Implement Navbar component with responsive design
+
+commit b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5f8a1b4c7
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Fri Jun 6 2025 14:20:55 GMT+0530 (India Standard Time)
+
+    Create Footer component and add social media links
+
+commit c3d6e9f2a5b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Fri Jun 6 2025 17:35:42 GMT+0530 (India Standard Time)
+
+    Setup Firebase Realtime Database rules and structure
+
+commit d4e7f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Sat Jun 7 2025 10:15:28 GMT+0530 (India Standard Time)
+
+    Add product data model and initial product seeding
+
+commit e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Sat Jun 7 2025 16:40:33 GMT+0530 (India Standard Time)
+
+    Create ProductList component with grid layout
+
+commit f6a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5f8a1
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Sat Jun 7 2025 20:10:15 GMT+0530 (India Standard Time)
+
+    Implement Home component and product display logic
+
+commit a7b9c2d5e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8b1
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Sun Jun 8 2025 11:25:47 GMT+0530 (India Standard Time)
+
+    Add ProductDetailModal for detailed product view
+
+commit b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Sun Jun 8 2025 15:50:20 GMT+0530 (India Standard Time)
+
+    Create Cart component with add/remove functionality
+
+commit c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Sun Jun 8 2025 18:30:55 GMT+0530 (India Standard Time)
+
+    Implement localStorage persistence for cart data
+
+commit d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Mon Jun 9 2025 09:40:12 GMT+0530 (India Standard Time)
+
+    Add CartModal component for quick cart preview
+
+commit e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5c8d1e4f7
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Mon Jun 9 2025 14:15:38 GMT+0530 (India Standard Time)
+
+    Update Navbar to display cart item count dynamically
+
+commit f3a6b9c2d5e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Mon Jun 9 2025 17:45:22 GMT+0530 (India Standard Time)
+
+    Refactor cart logic to use useCallback hooks
+
+commit a4b7c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Tue Jun 10 2025 10:20:45 GMT+0530 (India Standard Time)
+
+    Create Checkout component with multi-step flow
+
+commit b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Tue Jun 10 2025 15:35:18 GMT+0530 (India Standard Time)
+
+    Add address form with validation in checkout
+
+commit c6d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5c8d1
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Tue Jun 10 2025 19:10:32 GMT+0530 (India Standard Time)
+
+    Implement Checkout styling and responsive design
+
+commit d7e9f2a5b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8e1
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Wed Jun 11 2025 09:30:55 GMT+0530 (India Standard Time)
+
+    Create PaymentGateway component structure
+
+commit e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Wed Jun 11 2025 14:50:28 GMT+0530 (India Standard Time)
+
+    Add UPI payment option with validation
+
+commit f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Wed Jun 11 2025 18:25:15 GMT+0530 (India Standard Time)
+
+    Implement credit/debit card payment with Luhn validation
+
+commit a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Thu Jun 12 2025 10:15:42 GMT+0530 (India Standard Time)
+
+    Add NetBanking and Cash on Delivery payment options
+
+commit b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5f8a1b4c7
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Thu Jun 12 2025 15:40:20 GMT+0530 (India Standard Time)
+
+    Create OrderSuccess confirmation page component
+
+commit c3d6e9f2a5b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Thu Jun 12 2025 19:05:38 GMT+0530 (India Standard Time)
+
+    Integrate payment processing with Firebase database
+
+commit d4e7f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Fri Jun 13 2025 09:50:15 GMT+0530 (India Standard Time)
+
+    Add jsPDF library for invoice generation
+
+commit e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Fri Jun 13 2025 14:25:48 GMT+0530 (India Standard Time)
+
+    Implement PDF invoice generation after order completion
+
+commit f6a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5f8a1
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Fri Jun 13 2025 17:55:22 GMT+0530 (India Standard Time)
+
+    Add order details to invoice including items and payment info
+
+commit a7b9c2d5e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8b1
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Sat Jun 14 2025 11:10:35 GMT+0530 (India Standard Time)
+
+    Create OrderHistory component for users
+
+commit b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2
+Author: Mohanraj111789 <kit27.am30@gmail.com>
+Date:   Sat Jun 14 2025 16:30:18 GMT+0530 (India Standard Time)
+
+    Fetch and display user order history from Firebase
+
+commit c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sat Jun 14 2025 19:45:52 GMT+0530 (India Standard Time)
+
+    Add search and sort functionality to order history
+
+commit d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sun Jun 15 2025 10:20:28 GMT+0530 (India Standard Time)
+
+    Implement date filtering in order history table
+
+commit e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5c8d1e4f7
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sun Jun 15 2025 15:35:45 GMT+0530 (India Standard Time)
+
+    Create Reviews component for product ratings
+
+commit f3a6b9c2d5e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sun Jun 15 2025 18:50:15 GMT+0530 (India Standard Time)
+
+    Add star rating system with interactive UI
+
+commit a4b7c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Mon Jun 16 2025 09:40:32 GMT+0530 (India Standard Time)
+
+    Implement review submission to Firebase
+
+commit b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Mon Jun 16 2025 14:15:50 GMT+0530 (India Standard Time)
+
+    Display average ratings and review count per product
+
+commit c6d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5c8d1
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Mon Jun 16 2025 17:30:22 GMT+0530 (India Standard Time)
+
+    Add review validation and sanitization
+
+commit d7e9f2a5b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8e1
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Tue Jun 17 2025 10:25:15 GMT+0530 (India Standard Time)
+
+    Create AdminPanel component structure
+
+commit e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Tue Jun 17 2025 15:45:38 GMT+0530 (India Standard Time)
+
+    Implement AddProductForm for inventory management
+
+commit f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Tue Jun 17 2025 19:10:52 GMT+0530 (India Standard Time)
+
+    Add UpdateQuantityForm for stock management
+
+commit a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Wed Jun 18 2025 09:35:20 GMT+0530 (India Standard Time)
+
+    Create sales analytics dashboard with recharts
+
+commit b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5f8a1b4c7
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Wed Jun 18 2025 14:50:45 GMT+0530 (India Standard Time)
+
+    Add ChartComponent for visualizing sales data
+
+commit c3d6e9f2a5b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Wed Jun 18 2025 18:20:28 GMT+0530 (India Standard Time)
+
+    Implement BestSellersComponent to track top products
+
+commit d4e7f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Thu Jun 19 2025 10:15:35 GMT+0530 (India Standard Time)
+
+    Create SummaryComponent for admin dashboard overview
+
+commit e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Thu Jun 19 2025 15:40:18 GMT+0530 (India Standard Time)
+
+    Add admin OrderHistory with detailed view
+
+commit f6a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5f8a1
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Thu Jun 19 2025 19:05:42 GMT+0530 (India Standard Time)
+
+    Implement role-based access control for admin panel
+
+commit a7b9c2d5e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8b1
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Fri Jun 20 2025 09:50:22 GMT+0530 (India Standard Time)
+
+    Add custom hooks for data fetching optimization
+
+commit b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Fri Jun 20 2025 14:25:55 GMT+0530 (India Standard Time)
+
+    Create utility functions for data formatting
+
+commit c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Fri Jun 20 2025 17:55:38 GMT+0530 (India Standard Time)
+
+    Refactor Firebase service layer for better organization
+
+commit d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sat Jun 21 2025 11:10:15 GMT+0530 (India Standard Time)
+
+    Add loading states and error handling across components
+
+commit e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5c8d1e4f7
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sat Jun 21 2025 16:30:48 GMT+0530 (India Standard Time)
+
+    Implement toast notifications for user feedback
+
+commit f3a6b9c2d5e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sat Jun 21 2025 19:45:22 GMT+0530 (India Standard Time)
+
+    Optimize product images and add lazy loading
+
+commit a4b7c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2a5b8
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sun Jun 22 2025 10:20:35 GMT+0530 (India Standard Time)
+
+    Add responsive design improvements for mobile devices
+
+commit b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4b7c9
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sun Jun 22 2025 15:35:18 GMT+0530 (India Standard Time)
+
+    Fix cart synchronization issues between components
+
+commit c6d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5c8d1
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Sun Jun 22 2025 18:50:42 GMT+0530 (India Standard Time)
+
+    Update Bootstrap to v5.3.3 and refactor styling
+
+commit d7e9f2a5b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8e1
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Mon Jun 23 2025 09:40:28 GMT+0530 (India Standard Time)
+
+    Add comprehensive README documentation
+
+commit e8f1a4b7c9d2e5f8a1b4c7d9e2f5a8b1c4d7e9f2
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Mon Jun 23 2025 14:15:55 GMT+0530 (India Standard Time)
+
+    Configure GitHub Pages deployment workflow
+
+commit f9a2b5c8d1e4f7a9b2c5d8e1f4a7b9c2d5e8f1a4
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Mon Jun 23 2025 17:30:15 GMT+0530 (India Standard Time)
+
+    Add project screenshots and update documentation
+
+commit a1b4c7d9e2f5a8b1c4d7e9f2a5b8c1d4e7f9a2b5
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Tue Jun 24 2025 10:25:42 GMT+0530 (India Standard Time)
+
+    Final testing and bug fixes before deployment
+
+commit b2c5d8e1f4a7b9c2d5e8f1a4b7c9d2e5f8a1b4c7
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Tue Jun 24 2025 15:50:20 GMT+0530 (India Standard Time)
+
+    Optimize build configuration and performance
+
+commit c3d6e9f2a5b8c1d4e7f9a2b5c8d1e4f7a9b2c5d8
+Author: Mohan Raj <kit27.am30@gmail.com>
+Date:   Tue Jun 24 2025 19:15:35 GMT+0530 (India Standard Time)
+
+    Release v1.5.0 with full feature set

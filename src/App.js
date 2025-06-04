@@ -10,7 +10,7 @@ import SignUp from './components/Auth/SignUp';
 import Checkout from './components/Checkout/Checkout';
 import OrderSuccess from './components/OrderSuccess/OrderSuccess';
 import PaymentGateway from './components/Payment/PaymentGateway';
-
+import AdminPanel from './components/AdminPanel/AdminPanel';
 
 const App = () => {
   const [cart, setCart] = useState(() => {
@@ -108,6 +108,14 @@ const App = () => {
               element={
                 <ProtectedRoute>
                   <OrderSuccess />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/admin" 
+              element={
+                <ProtectedRoute>
+                  <AdminPanel />
                 </ProtectedRoute>
               } 
             />
