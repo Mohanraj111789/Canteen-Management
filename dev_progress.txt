@@ -3,3 +3,4 @@ Commit 1 : Initial project setup with create-react-app
 Commit 2 : Configure Firebase and add authentication setup
 Commit 3 : Add project structure and routing configuration
 Commit 4 : Implement AuthContext for global state management
+Commit 5 : Create Login and SignUp components with form validation
