@@ -5,3 +5,4 @@ Commit 3 : Add project structure and routing configuration
 Commit 4 : Implement AuthContext for global state management
 Commit 5 : Create Login and SignUp components with form validation
 Commit 6 : Add ProtectedRoute component for route guarding
+Commit 7 : Implement Navbar component with responsive design
