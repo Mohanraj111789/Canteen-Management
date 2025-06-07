@@ -9,3 +9,4 @@ Commit 7 : Implement Navbar component with responsive design
 Commit 8 : Create Footer component and add social media links
 Commit 9 : Setup Firebase Realtime Database rules and structure
 Commit 10 : Add product data model and initial product seeding
+Commit 11 : Create ProductList component with grid layout
