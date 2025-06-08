@@ -11,3 +11,4 @@ Commit 9 : Setup Firebase Realtime Database rules and structure
 Commit 10 : Add product data model and initial product seeding
 Commit 11 : Create ProductList component with grid layout
 Commit 12 : Implement Home component and product display logic
+Commit 13 : Add ProductDetailModal for detailed product view
