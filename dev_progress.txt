@@ -14,3 +14,4 @@ Commit 12 : Implement Home component and product display logic
 Commit 13 : Add ProductDetailModal for detailed product view
 Commit 14 : Create Cart component with add/remove functionality
 Commit 15 : Implement localStorage persistence for cart data
+Commit 16 : Add CartModal component for quick cart preview
