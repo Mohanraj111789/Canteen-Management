@@ -18,3 +18,4 @@ Commit 16 : Add CartModal component for quick cart preview
 Commit 17 : Update Navbar to display cart item count dynamically
 Commit 18 : Refactor cart logic to use useCallback hooks
 Commit 19 : Create Checkout component with multi-step flow
+Commit 20 : Add address form with validation in checkout
