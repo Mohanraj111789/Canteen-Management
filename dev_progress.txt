@@ -21,3 +21,4 @@ Commit 19 : Create Checkout component with multi-step flow
 Commit 20 : Add address form with validation in checkout
 Commit 21 : Implement Checkout styling and responsive design
 Commit 22 : Create PaymentGateway component structure
+Commit 23 : Add UPI payment option with validation
