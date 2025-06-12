@@ -24,3 +24,4 @@ Commit 22 : Create PaymentGateway component structure
 Commit 23 : Add UPI payment option with validation
 Commit 24 : Implement credit/debit card payment with Luhn validation
 Commit 25 : Add NetBanking and Cash on Delivery payment options
+Commit 26 : Create OrderSuccess confirmation page component
