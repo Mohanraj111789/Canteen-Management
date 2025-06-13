@@ -26,3 +26,4 @@ Commit 24 : Implement credit/debit card payment with Luhn validation
 Commit 25 : Add NetBanking and Cash on Delivery payment options
 Commit 26 : Create OrderSuccess confirmation page component
 Commit 27 : Integrate payment processing with Firebase database
+Commit 28 : Add jsPDF library for invoice generation
