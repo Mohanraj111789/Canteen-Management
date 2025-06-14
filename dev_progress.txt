@@ -30,3 +30,4 @@ Commit 28 : Add jsPDF library for invoice generation
 Commit 29 : Implement PDF invoice generation after order completion
 Commit 30 : Add order details to invoice including items and payment info
 Commit 31 : Create OrderHistory component for users
+Commit 32 : Fetch and display user order history from Firebase
