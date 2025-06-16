@@ -36,3 +36,4 @@ Commit 34 : Implement date filtering in order history table
 Commit 35 : Create Reviews component for product ratings
 Commit 36 : Add star rating system with interactive UI
 Commit 37 : Implement review submission to Firebase
+Commit 38 : Display average ratings and review count per product
