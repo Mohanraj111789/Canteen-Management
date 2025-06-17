@@ -38,3 +38,4 @@ Commit 36 : Add star rating system with interactive UI
 Commit 37 : Implement review submission to Firebase
 Commit 38 : Display average ratings and review count per product
 Commit 39 : Add review validation and sanitization
+Commit 40 : Create AdminPanel component structure
