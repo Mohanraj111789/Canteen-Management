@@ -40,3 +40,4 @@ Commit 38 : Display average ratings and review count per product
 Commit 39 : Add review validation and sanitization
 Commit 40 : Create AdminPanel component structure
 Commit 41 : Implement AddProductForm for inventory management
+Commit 42 : Add UpdateQuantityForm for stock management
