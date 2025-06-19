@@ -46,3 +46,4 @@ Commit 44 : Add ChartComponent for visualizing sales data
 Commit 45 : Implement BestSellersComponent to track top products
 Commit 46 : Create SummaryComponent for admin dashboard overview
 Commit 47 : Add admin OrderHistory with detailed view
+Commit 48 : Implement role-based access control for admin panel
