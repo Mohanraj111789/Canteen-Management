@@ -50,3 +50,4 @@ Commit 48 : Implement role-based access control for admin panel
 Commit 49 : Add custom hooks for data fetching optimization
 Commit 50 : Create utility functions for data formatting
 Commit 51 : Refactor Firebase service layer for better organization
+Commit 52 : Add loading states and error handling across components
