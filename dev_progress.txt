@@ -58,3 +58,4 @@ Commit 56 : Fix cart synchronization issues between components
 Commit 57 : Update Bootstrap to v5.3.3 and refactor styling
 Commit 58 : Add comprehensive README documentation
 Commit 59 : Configure GitHub Pages deployment workflow
+Commit 60 : Add project screenshots and update documentation
