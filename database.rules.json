@@ -1,0 +1,44 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    
+    "products": {
+      ".read": true,
+      ".write": true
+    },
+    
+    "users": {
+      "$uid": {
+        ".read": true,
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    },
+    
+    "reviews": {
+      ".read": true,
+      ".write": true,
+      "$productId": {
+        "$reviewId": {
+          ".read": true,
+          ".write": true,
+          ".validate": "newData.hasChildren(['userName', 'rating', 'timestamp'])",
+          "userName": {
+            ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 50"
+          },
+          "rating": {
+            ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 5"
+          },
+          "timestamp": {
+            ".validate": "newData.isNumber() && newData.val() <= now"
+          }
+        }
+      }
+    },
+    
+    "orders": {
+      ".read": true,
+      ".write": true
+    }
+  }
+} 
