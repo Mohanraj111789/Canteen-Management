@@ -61,3 +61,4 @@ Commit 59 : Configure GitHub Pages deployment workflow
 Commit 60 : Add project screenshots and update documentation
 Commit 61 : Final testing and bug fixes before deployment
 Commit 62 : Optimize build configuration and performance
+Commit 63 : Release v1.5.0 with full feature set
