@@ -1,0 +1,46 @@
+{
+  "admins": {
+    "AdminUserId": true
+  },
+  "products": {
+    "1": {
+      "id": "1",
+      "name": "Masala Dosa",
+      "price": 60,
+      "quantity": 100,
+      "image": "https://source.unsplash.com/random/800x600/?dosa",
+      "description": "Crispy rice crepe filled with spiced potato mixture, served with coconut chutney and sambar",
+      "category": "South Indian"
+    },
+    "2": {
+      "id": "2",
+      "name": "Samosa",
+      "price": 20,
+      "quantity": 150,
+      "image": "https://source.unsplash.com/random/800x600/?samosa",
+      "description": "Deep-fried pastry filled with spiced potatoes and peas",
+      "category": "Snacks"
+    },
+    "3": {
+      "id": "3",
+      "name": "Butter Chicken",
+      "price": 180,
+      "quantity": 50,
+      "image": "https://source.unsplash.com/random/800x600/?butter-chicken",
+      "description": "Tender chicken pieces in rich, creamy tomato gravy",
+      "category": "Main Course"
+    },
+    "4": {
+      "id": "4",
+      "name": "Cold Coffee",
+      "price": 70,
+      "quantity": 80,
+      "image": "https://source.unsplash.com/random/800x600/?cold-coffee",
+      "description": "Chilled coffee blended with milk and ice cream",
+      "category": "Beverages"
+    }
+  },
+  "sales": {
+    
+  }
+}
