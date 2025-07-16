@@ -39,7 +39,8 @@ const UserOrderHistory = () => {
             price: item.price || products[item.id]?.price || 0
           })) || [],
           total: sale.total || sale.items?.reduce((sum, item) => sum + (item.price * item.quantity), 0) || 0,
-          status: sale.status || 'Completed'
+          status: sale.status || 'Completed',
+          paymentMethod: sale.paymentMethod || 'N/A', // Add payment method
         }));
     }).flat();
   }, [products, currentUser?.email]);
@@ -136,6 +137,7 @@ const UserOrderHistory = () => {
                   Total {sortConfig.key === 'total' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
                 </th>
                 <th>Status</th>
+                <th>Payment Method</th> {/* New column */}
               </tr>
             </thead>
             <tbody>
@@ -157,6 +159,7 @@ const UserOrderHistory = () => {
                     </td>
                     <td>₹{order.total.toFixed(2)}</td>
                     <td>{order.status}</td>
+                    <td>{order.paymentMethod}</td> {/* New data */}
                   </tr>
                 ))
               )}

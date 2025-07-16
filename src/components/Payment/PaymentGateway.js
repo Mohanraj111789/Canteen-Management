@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Form, Button, Card, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Card, ListGroup, Spinner } from 'react-bootstrap';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { FaCreditCard, FaMoneyBill, FaMobile } from 'react-icons/fa';
 import './PaymentGateway.css';
@@ -60,7 +60,26 @@ const PaymentGateway = () => {
   };
 
   return (
-    <Container className="py-5">
+    <Container className="py-5 position-relative">
+      {/* Loading overlay */}
+      {loading && (
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'rgba(255,255,255,0.7)',
+          zIndex: 10,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>
+          <Spinner animation="border" role="status" style={{ width: 60, height: 60 }}>
+            <span className="visually-hidden">Processing...</span>
+          </Spinner>
+        </div>
+      )}
       <Row>
         <Col md={7}>
           <Card className="mb-4">
